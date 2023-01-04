@@ -1,0 +1,153 @@
+*{
+  background-color: #1E252B;
+}
+body{
+  overflow: hidden;
+}
+nav{
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+#hover{
+  color: #FFFFFF8C;
+  transition: all 0.5s ease;
+}
+#hover:hover{
+  background: none;
+  color: #FFF;
+}
+#btn{
+  border :1px solid #FF6E30;
+  background: #FF6E30;
+  color: #FFF;
+  transition: all 0.5s ease;
+}
+#btn:hover{
+  background: none;
+  color: #FF6E30;
+  border: 1px solid #FF6E30;
+}
+.form{
+  width: 100%;
+  background:#283036;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:15px 15px 15px 20px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.form label{
+  background: none;
+  color:#FFFFFF8C;
+  font-size: 20px;
+}
+.form input{
+  background: none;
+ width: 100%;
+ height: 30px;
+ border: 1px solid #283036;
+ margin:0 10px;
+ outline: #283036;
+transition: all 0.5s ease;
+border-radius: 5px;
+color:#FFFFFF8C;
+padding: 10px;
+}
+.form input:focus{
+  border-color: #FFF;
+  outline: #FFF;
+}
+.hover-card{
+  width: 300px;
+  padding: 10px 2%;
+  transition: all 0.5s ease;
+}
+.hover-card:hover {
+  border-radius: 10px;
+  background: #1E252B;
+  box-shadow:  100px 400px 20px #1f252a,
+               1px -2px 5px #313b42;
+}               
+  .flex{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .swiper {
+    width: 100%;
+    height: 60vh;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    height: 300px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    /* display: block; */
+    width: 50%;
+    height: auto;
+
+  }
+  #f{
+    width: 350px;
+  }
+#hover2{
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+#hover2:hover{
+  color: #FF6E30;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1024px){
+  nav{
+    display: block;
+  }
+  #navbarBasicExample{
+    margin:0 10px;
+    border:1px solid white
+  }
+  .none{
+    display: none;
+  }
+}
+@media(max-width:700px){
+  .hover-card{
+    width: 100%;
+  }
+}
